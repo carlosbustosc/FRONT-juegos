@@ -1,0 +1,62 @@
+.contenedor_menu {
+    width: 100%;
+    display: table;
+    background-color: #000;
+    border-bottom: 1px solid#00acbd;
+}
+
+.row {
+    padding: 0px;
+}
+
+.imagen_juego {
+    height: 63px;
+    margin-left: 67px;
+}
+
+li {
+    text-align: center;
+    list-style: none;
+}
+
+li a {
+    color: #fff;
+    padding: 9px 20px;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li a.bajar_icono {
+    padding: 21px 0px;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.boton_de_login {
+    padding: 18px 0px;
+    display: block;
+    text-decoration: none;
+    font-size: 19px;
+    color: #fff;
+    width: 96px;
+    text-align: center;
+    float: right;
+    cursor: pointer;
+}
+
+.boton_de_login:hover {
+    text-decoration: underline;
+}
+
+.cerrar_session {
+    width: 168px;
+    padding: 19px 0px;
+    font-size: 18px;
+}
+
+li a.boton {
+    display: block;
+}

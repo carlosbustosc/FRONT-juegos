@@ -1,0 +1,27 @@
+<div class="container contenedor_login_principal">
+    <div class="contenedor_login">
+        <form [formGroup]="login" (ngSubmit)="ingresar()">
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">correo</label>
+                <input type="email" formControlName="correo" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+                <small class="text-danger email" *ngIf="emailNoValido">Email incorrecto</small>
+
+
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                <input type="password" formControlName="pass" class="form-control" id="exampleInputPassword1">
+
+                <small class="text-danger pass" *ngIf="contrasenaNoValida">Contraseña no valida</small>
+
+            </div>
+            <div class="mb-3 form-check">
+                <input formControlName="check" type="checkbox" class="form-check-input" id="chekcLogin">
+                <label class="form-check-label" for="exampleCheck1">Recordar</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Ingresar</button>
+            <div id="emailHelp" class="form-text">¿aun no esta registrado? <span class="resgitrarme" [routerLink]="['/registro']"><b>Resgitrarme</b></span></div>
+        </form>
+    </div>
+</div>

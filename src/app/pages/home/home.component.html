@@ -1,0 +1,205 @@
+<div class="container mt-5">
+
+    <h1 class="titulo_juegos mt-5">LANZAMIENTOS MÁS POPULARES</h1>
+    <p class="parrafo_juegos"><b>Lanzamientos mas populares</b> en los ultimos años para todas las plataformas</p>
+
+    <!--
+    <img src="https://img.youtube.com/vi/eOiUtRF8k28/maxresdefault.jpg" class="imagen_portada_home">
+    -->
+
+    <div *ngIf="imagenesSliderHome.length > 0">
+        <app-slider [juego]="imagenesSliderHome"></app-slider>
+    </div>
+
+
+    <div class="contenedor_imagenes mt-3">
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <img src="https://i.ytimg.com/vi/-tIAazzD1gk/maxresdefault.jpg" class="imagen_detalle_home">
+            </div>
+
+            <div class="col-md-6 contenedor_texto_home">
+                <h1 class="titulo_detalle_home">God of War <span class="plataforma_titulo">PC</span></h1>
+                <p class="texto_detalle">God of War es la vuelta de Kratos a los videojuegos tras la trilogía original. Esta nueva entrega para PlayStation 4, si bien mantendrá varios de los ingredientes indivisibles de su jugabilidad, apostará por un nuevo comienzo para el personaje
+                    y una ambientación nórdica, ofreciéndonos una perspectiva más madura y realista de la mitología de dioses y monstruos milenarios habitual en la serie de títulos. En God of War, Kratos será un guerrero más curtido y pasivo, pues tendrá
+                    que desempeñar el rol de padre en un frío y hostil escenario, al que parece haberse retirado para olvidar su pasado.</p>
+            </div>
+        </div>
+        <hr class="division_seccion">
+
+
+        <div class="row mt-5">
+            <div class="col-md-6 contenedor_texto_home">
+                <h1 class="titulo_detalle_home">Dying Light 2 <span class="plataforma_titulo">PC / Xbox One PS4 PS5 Xbox Series X/S</span></h1>
+                <p class="texto_detalle">Dying Light 2 es la secuela del célebre título Dying Light. Apostando de nuevo por la acción y la aventura en primera persona, añadiendo parkour y saltos imposibles a su propuesta de tiroteos y combate en primera persona, Dying Light 2
+                    nos trasladará a un mundo en el que ser el humano sobrevive como puede a la amenaza de los no muertos. Construyendo a grandes alturas, encarnaremos a un personaje que tomará decisiones, sobrevivirá a los achaques de las criaturas y
+                    se opondrá a los mercenarios y enemigos humanos.</p>
+                <p class="texto_detalle"><b>Género:</b> Mundo abierto / Shooter en primera persona / Survival Horror / Zombis</p>
+            </div>
+
+            <div class="col-md-6">
+                <img src="https://as01.epimg.net/meristation/imagenes/2021/11/16/avances/1637075170_652708_1637077937_noticia_normal.jpg" class="imagen_detalle_home">
+            </div>
+        </div>
+        <hr class="division_seccion">
+
+
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <img src="https://www.global-esports.news/wp-content/uploads/2021/12/Cyberpunk-Multiplayer.png" class="imagen_detalle_home">
+            </div>
+
+            <div class="col-md-6 contenedor_texto_home">
+                <h1 class="titulo_detalle_home">Cyberpunk 2077 <span class="plataforma_titulo">PS5 Xbox Series X/S</span></h1>
+                <p class="texto_detalle">Los creadores de The Witcher nos sumergen en un RPG para PS4 de mundo abierto basado en un juego de tablero llamado Cyberpunk 2020. El título se caracteriza por su complejidad y un argumento con muchas opciones a la hora de la jugabilidad.
+                    Como en todos los juegos de CD Projekt RED, la toma de decisiones y nuestros pasos marcarán el futuro en el juego. Una apuesta orientada a la acción que intentará mantener las bases y el encanto de los viejos juegos de tablero.</p>
+                <p class="texto_detalle"><b>Género:</b>Mundo abierto / RPG Occidental</p>
+            </div>
+        </div>
+        <hr class="division_seccion">
+
+        <div class="row mt-5">
+            <div class="col-md-6 contenedor_texto_home">
+                <h1 class="titulo_detalle_home">Graveyard Keeper <span class="plataforma_titulo">PC</span></h1>
+                <p class="texto_detalle">Graveyard Keeper nos lleva a una disparatada Edad Media donde tendremos que ocuparnos de que a nuestro cementerio no le falte de nada. Para ello, tendremos que estudiar la economía del mismo para reducir costes o buscar fuentes de ingresos
+                    adicionales. Por ejemplo, quemar brujas en medio del cementerio, que eso siempre atrae la atención. De esta forma, el juego presenta en clave de humor este periodo histórico, así como se ríe de otros temas como la muerte o el capitalismo.
+                    Hay que hacer todo lo necesario para mantener vivo el negocio. Como por ejemplo, quemar brujas.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="https://as01.epimg.net/meristation/imagenes/2021/11/16/avances/1637075170_652708_1637077937_noticia_normal.jpg" class="imagen_detalle_home">
+            </div>
+        </div>
+        <hr class="division_seccion">
+
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <img src="https://www.pcmrace.com/wp-content/uploads/2016/12/FP_animation_poster.png" class="imagen_detalle_home">
+            </div>
+
+            <div class="col-md-6 contenedor_texto_home">
+                <h1 class="titulo_detalle_home">Freedom Planet 2 <br><span class="plataforma_titulo">PC Xbox Series X/S Xbox One Switch PS4 PS5</span></h1>
+                <p class="texto_detalle">Freedom Planet 2 es un videojuego de acción y plataformas de gran velocidad, diseñado para parecer un juego de la época de los 16 bits. Inspirado fuertemente en Sonic, en Freedom Planet 2 controlamos a una chica dragón y sus amigos para
+                    combatir contra una fuerza alienígena en fases de plataformas y combate. Nos encontraremos con muchos enemigos entre los que habrán desde insectos a robots gigante. El modo aventura incluye secuencias con voces, mientras que el modo
+                    clásico está pensado para los aficionados a la acción sin historia. Dispone de modo contrarreloj y se pueden desbloquear galerías de imágenes y música mediante coleccionables..</p>
+                <p class="texto_detalle"><b>Género:</b>Plataformas / Plataformas 2D</p>
+            </div>
+        </div>
+        <hr class="division_seccion">
+
+        <div class="row mt-5">
+
+            <div class="col-md-6 contenedor_texto_home">
+                <h1 class="titulo_detalle_home">Gran Turismo 7 <span class="plataforma_titulo">PS5 PS4</span></h1>
+                <p class="texto_detalle">Gran Turismo 7 es la séptima entrega de la veterana saga de conducción y simulación de Polyphony Digital para consolas PlayStation. En exclusiva para PlayStation 5, la nueva entrega del videojuego de coches tendrá mejoras audiovisuales
+                    inimaginables en la licencia, haciendo especial hincapié en el uso del ray tracing en la iluminación y la recreación de modelados de vehículos más complejos.</p>
+                <p class="texto_detalle"><b>Género:</b>Carreras simulación / Coches</p>
+            </div>
+
+            <div class="col-md-6">
+                <img src="https://as01.epimg.net/meristation/imagenes/2022/02/02/avances/1643801760_942232_1643802688_noticia_normal.jpg" class="imagen_detalle_home">
+            </div>
+        </div>
+        <hr class="division_seccion">
+
+        <!------------------------------------------------->
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <img src="https://img.youtube.com/vi/eOiUtRF8k28/maxresdefault.jpg" class="imagen_detalle_home">
+            </div>
+
+            <div class="col-md-6 contenedor_texto_home">
+                <h1 class="titulo_detalle_home">The Last of Us <br><span class="plataforma_titulo">PC Xbox Series X/S Xbox One Switch PS4 PS5</span></h1>
+                <p class="texto_detalle">The Last of Us es un videojuego de terror y de acción y aventura desarrollado por la compañía estadounidense Naughty Dog y distribuido por Sony Computer Entertainment para la consola PlayStation 3 en 2013. La trama describe las vivencias
+                    de Joel y Ellie, un par de supervivientes de una pandemia en Estados Unidos que provoca la mutación de los seres humanos en criaturas caníbales.</p>
+                <p class="texto_detalle"><b>Género:</b>Plataformas / Plataformas 2D</p>
+            </div>
+        </div>
+        <hr class="division_seccion">
+
+        <div class="row mt-5">
+
+            <div class="col-md-6 contenedor_texto_home">
+                <h1 class="titulo_detalle_home">Mortal Kombat 11<span class="plataforma_titulo">PlayStation 4, Nintendo Switch, Xbox One</span></h1>
+                <p class="texto_detalle">ortal Kombat 11 es un videojuego de lucha desarrollado por NetherRealm Studios y publicado por Warner Bros. Interactive Entertainment. Se ejecuta en una versión muy modificada de Unreal Engine 3, ​ es la undécima entrega principal de la
+                    serie Mortal Kombat y una secuela de 2015 Mortal Kombat X.</p>
+
+            </div>
+
+            <div class="col-md-6">
+                <img src="https://media.vandal.net/m/11-2020/2020112218265558_1.jpg" class="imagen_detalle_home">
+            </div>
+        </div>
+        <hr class="division_seccion">
+
+
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <img src="https://media.vandal.net/m/9-2021/202192119292543_1.jpg" class="imagen_detalle_home">
+            </div>
+
+            <div class="col-md-6 contenedor_texto_home">
+                <h1 class="titulo_detalle_home">Guardianes de la Galaxia <br><span class="plataforma_titulo">Microsoft Windows, Nintendo Switch, PlayStation 4, PlayStation 5, Xbox One y Xbox Series X/S.</span></h1>
+                <p class="texto_detalle">En Marvel's Guardians of the Galaxy, el jugador asume el control de Peter Quill/Star-Lord desde una perspectiva en tercera persona. El jugador puede utilizar las armas elementales de Star-Lord para derrotar a los enemigos, y volar por
+                    los aires utilizando sus botas jet.1​ Otros miembros del equipo titular, entre los que se encuentran Gamora, Mapache Cohete, Groot y Drax el Destructor, no son directamente jugables ya que están controlados por la inteligencia artificial,
+                    pero los jugadores pueden darles órdenes durante el combate. Cada personaje tiene sus propias habilidades y destrezas únicas que pueden encadenarse para infligir más daño.</p>
+
+            </div>
+        </div>
+        <hr class="division_seccion">
+
+        <div class="row mt-5">
+            <div class="col-md-6 contenedor_texto_home">
+                <h1 class="titulo_detalle_home">Fallout <span class="plataforma_titulo">	Windows, Mac OS, Mac OS X, MS-DOS, PlayStation 2, Xbox, PlayStation 3, Xbox 360, PlayStation 4 y Xbox One</span></h1>
+                <p class="texto_detalle">Fallout es una serie o saga de videojuegos de rol publicados originalmente por Interplay, luego posteriormente, por Bethesda Softworks y ahora por Xbox Game Studios. Aunque las tramas de los videojuegos se desarrollan en los siglos 22
+                    y 23, prevalece una gran influencia de la cultura de posguerra desarrollada en los años 1950 en Estados Unidos, así como la combinación de esperanza y progreso tecnológico, junto con el miedo a la aniquilación nuclear y los efectos
+                    de una Tercera guerra mundial a finales del siglo 21. Esta saga se suele considerar como la secuela no oficial del videojuego Wasteland, aunque no tomó ese nombre debido a que Electronic Arts poseía los derechos sobre él y, aunque
+                    con algunas referencias comunes, los videojuegos se desarrollan en universos diferentes..</p>
+
+            </div>
+
+            <div class="col-md-6">
+                <img src="https://media.revistagq.com/photos/604ba9dc9fc97c95e82c1ccf/master/w_1920,h_1080,c_limit/Fallout-New-Vegas.jpeg" class="imagen_detalle_home">
+            </div>
+        </div>
+        <hr class="division_seccion">
+
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <img src="https://www.laps4.com/wp-content/uploads/2021/09/Ghostrunner-Neon-Pack.jpg" class="imagen_detalle_home">
+            </div>
+
+            <div class="col-md-6 contenedor_texto_home">
+                <h1 class="titulo_detalle_home">Ghostrunner <br><span class="plataforma_titulo">PC Xbox Series X/S Xbox One Switch PS4 PS5</span></h1>
+                <p class="texto_detalle">Ghostrunner es un juego de plataformas de acción cyberpunk desarrollado conjuntamente por el estudio danés Slipgate Ironworks y el desarrollador polaco One More Level y coeditado por All In! Juegos y 505 Juegos.</p>
+            </div>
+        </div>
+        <hr class="division_seccion">
+
+        <div class="row mt-5">
+            <div class="col-md-6 contenedor_texto_home">
+                <h1 class="titulo_detalle_home">The Crew <span class="plataforma_titulo">PS5 PS4</span></h1>
+                <p class="texto_detalle">The Crew es un videojuego de conducción multijugador situado en un entorno de mundo abierto basado en los Estados Unidos, desarrollado por Ivory Tower y distribuido por Ubisoft, que fue lanzado el 2 de diciembre de 2014 para PlayStation
+                    4, Xbox One, Microsoft Windows y Xbox 360.</p>
+
+            </div>
+
+            <div class="col-md-6">
+                <img src="https://allgamersin.com/wp-content/uploads/2018/06/The-Crew-2-1-1.jpg" class="imagen_detalle_home">
+            </div>
+        </div>
+        <hr class="division_seccion">
+
+    </div>
+
+    <div class="contenedor_imagenes mt-2">
+        <h1 class="titulo_juegos mt-5">LO MAS DESTACADO DE PC Y NAVEGADOR</h1>
+        <p class="parrafo_juegos"><b>Lanzamientos mas populares</b> en los ultimos años para pc y navegadores</p>
+
+        <div class="row">
+            <div class="col-md-3" *ngFor="let juego of juegosTarjeta">
+                <img [src]="juego.thumbnail" class="imagenes_de_juegos mt-3 ml-2" (click)="ver_detalle( juego.id )">
+                <p class="pie_de_juego">{{ juego.title }}</p>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,44 @@
+.ancho_de_formulario {
+    width: 40%;
+    border-radius: 0px;
+}
+
+.contenedor_buscar {
+    width: 100%;
+    display: table;
+}
+
+.ancho_de_formulario {
+    float: left;
+}
+
+.boton_buscar {
+    float: left;
+    border-radius: 0px;
+}
+
+.contenedor_error {
+    width: 91%;
+    margin: auto;
+    background-color: #32383e;
+    padding: 30px 50px;
+    margin-top: 70px;
+}
+
+.texto_error {
+    font-size: 24px;
+    text-align: center;
+    color: #c1c1c1;
+}
+
+.buscar_categoria {
+    color: #aaa;
+    font-size: 16px;
+    margin-bottom: 23px;
+}
+
+.nombre_bienvenida {
+    color: #c9c9c9;
+    font-size: 35px;
+    margin-bottom: 13px;
+}

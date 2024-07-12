@@ -1,0 +1,81 @@
+.container {
+    background-color: hsl(0deg 0% 16% / 90%);
+    padding: 10px 50px;
+}
+
+.imagen_detalle {
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.titulo_detalle {
+    font-size: 30px;
+    color: #aaa;
+    margin-bottom: 26px;
+}
+
+.linea_divisora_detalle {
+    border: none;
+    height: 1px;
+    background-color: #f7f7f7;
+    margin-bottom: 34px;
+}
+
+.texto_detalle {
+    font-size: 17px;
+    color: #aaaaaa;
+    margin-top: -10px;
+}
+
+.detalles_construccion {
+    font-size: 17px;
+    color: #aaaaaa;
+}
+
+.imagen_detalle_tumb {
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.iframe_juego_ltsx {
+    width: 100%;
+    height: 1000px;
+}
+
+.contenedor_fondo_detalle {
+    width: 100%;
+    height: 750px;
+    background-position-x: 400px;
+    background-attachment: fixed;
+}
+
+.boton_lts {
+    margin-bottom: 50px;
+}
+
+.btn.btn-outline-success.boton_lts {
+    background-color: #2d2d2d;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    border-radius: 0;
+    padding: 10px 19px;
+    line-height: 16px;
+}
+
+.btn.btn-outline-success.boton_lts:hover {
+    background-color: #fff;
+    color: #2d2d2d;
+}
+
+.btn.btn-outline-primary.boton_lts {
+    background-color: #2d2d2d;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    border-radius: 0;
+    padding: 6px 10px;
+}
+
+.btn.btn-outline-primary.boton_lts:hover {
+    background-color: #fff;
+    color: #2d2d2d;
+}

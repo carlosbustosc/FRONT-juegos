@@ -1,0 +1,38 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="contenedor_menu">
+            <div class="row">
+                <div class="col-md-1">
+                    <img class="imagen_juego" src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/gaming-video-logo-social-media-design-template-80830cc99690f0c30599d5b0fe4404cd_screen.jpg?ts=1589532983">
+                </div>
+                <div class="col-4">
+                    <div class="row">
+                        <div class="col">
+                            <li><a class="bajar_icono boton" [routerLink]="['home']">HOME</a></li>
+                        </div>
+                        <div class="col">
+                            <li><a class="bajar_icono boton" [routerLink]="['juegos']">JUEGOS-PC</a></li>
+                        </div>
+                        <div class=" col ">
+                            <li><a class="bajar_icono boton" [routerLink]="['videos']">VIDEOS</a></li>
+                        </div>
+                        <!--
+                        <div class=" col ">
+                            <li><a class="bajar_icono boton">CONSOLAS</a></li>
+                        </div>
+                        -->
+                    </div>
+                </div>
+
+                <div class="col-6" *ngIf="ocultarLogin">
+                    <div class="col">
+                        <li><a class="boton bajar_icono boton_de_login cerrar_session" [routerLink]="['login']" (click)="cerrarSession()">cerrar session</a></li>
+                    </div>
+                    <div class="col">
+                        <a class="boton_de_login boton_login" [routerLink]="['login']">LOGIN</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

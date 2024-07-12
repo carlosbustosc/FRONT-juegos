@@ -1,0 +1,57 @@
+<div class="container mt-5">
+    <h1 class="titulo_detalle">{{ detalleJuego.title | uppercase }}</h1>
+    <hr class="linea_divisora_detalle">
+    <div class="row">
+        <div class="col-md-12" *ngIf="comprobarLength.length > 0">
+            <app-slider [juego]="detalleJuego"></app-slider>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="titulo_detalle">DESCRIPTION </h1>
+            <p class="texto_detalle">{{ detalleJuego.description }}</p>
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col-md-8">
+            <h1 class="titulo_detalle">CARACTERISTICS </h1>
+            <img [src]="detalleJuego.thumbnail" class="imagen_detalle_tumb">
+            <p class="texto_detalle"><b>Developer:</b><span class="detalles_construccion"> {{ detalleJuego.developer}}</span></p>
+            <p class="texto_detalle"><b>genre:</b><span class="detalles_construccion"> {{ detalleJuego.genre }}</span></p>
+            <p class="texto_detalle"><b>platform: </b><span class="detalles_construccion"> {{ detalleJuego.platform }}</span></p>
+            <p class="texto_detalle"><b>publisher: </b><span class="detalles_construccion"> {{ detalleJuego.publisher }}</span></p>
+            <p class="texto_detalle"><b>release_date: </b><span class="detalles_construccion"> {{ detalleJuego.release_date }}</span></p>
+            <p class="texto_detalle"><b>short_description: </b><span class="detalles_construccion"> {{ detalleJuego.short_description }}</span></p>
+            <p class="texto_detalle"><b>status: </b><span class="detalles_construccion"> {{ detalleJuego.status }}</span></p>
+            <p class="texto_detalle"><b>title: </b><span class="detalles_construccion"> {{ detalleJuego.title }}</span></p>
+
+            <div *ngIf=" detalleJuego.platform == 'Windows' ">
+                <h1 class="titulo_detalle">MINIMUM SYSTEM REQUIREMENTS </h1>
+                <p class="texto_detalle"><b>graphics: </b><span class="detalles_construccion"> {{ detalleJuego.minimum_system_requirements.graphics }}</span></p>
+                <p class="texto_detalle"><b>memory: </b><span class="detalles_construccion"> {{ detalleJuego.minimum_system_requirements.memory }}</span></p>
+                <p class="texto_detalle"><b>os: </b><span class="detalles_construccion"> {{ detalleJuego.minimum_system_requirements.os}}</span></p>
+                <p class="texto_detalle"><b>processor: </b><span class="detalles_construccion"> {{ detalleJuego.minimum_system_requirements.processor }}</span></p>
+                <p class="texto_detalle"><b>storage: </b><span class="detalles_construccion"> {{ detalleJuego.minimum_system_requirements.storage }}</span></p>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-md-2">
+                    <a class="btn btn-outline-danger boton_lts" target="_blank" (click)="volverPantalla()">Volver</a>
+                </div>
+                <div class="col-md-2">
+                    <a [href]=" detalleJuego.game_url " class="btn btn-outline-success boton_lts" target="_blank">Ir al juego</a>
+                </div>
+                <div class="col-md-2">
+                    <a [href]=" detalleJuego.freetogame_profile_url " class="btn btn-outline-primary boton_lts" target="_blank">Ir a la pagina</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-md-4">
+            <div class="contenedor_fondo_detalle" [ngStyle]="imagenFondo"></div>
+        </div>
+    </div>
+</div>

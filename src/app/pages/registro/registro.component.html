@@ -1,0 +1,36 @@
+<div class="container contenedor_login_principal">
+    <div class="contenedor_registro">
+        <form [formGroup]="formularios" (ngSubmit)="registrar()">
+
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Nombre</label>
+                <input type="text" formControlName="nombre" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <small class="text-danger" *ngIf="errorNombre">Escribe el nombre Minimo 5 letras</small>
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
+                <input type="email" formControlName="correo" class="form-control" id="exampleInputEmail2" aria-describedby="emailHelp">
+                <small class="text-danger" *ngIf="errorCorreo">Escribe bien el correo debe llevar ( @ )</small>
+                <small class="text-danger" *ngIf="emailExiste">El email ya existe</small>
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                <input type="password" formControlName="pass" class="form-control" id="exampleInputPassword3">
+                <small class="text-danger" *ngIf="errorPass"> escribe la contraseña</small>
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Repetir Contraseña</label>
+                <input type="password" formControlName="pass2" class="form-control" id="exampleInputPassword4">
+                <small class="text-danger" *ngIf="errorPass2"> vuelve a escribir la contraseña</small>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Registrar</button>
+            <div id="emailHelp" class="form-text">¿ya estas registrado? <span class="ingresar" [routerLink]="['/login']"><b>Ingresar</b></span></div>
+        </form>
+    </div>
+</div>
+
+<p style="color:#fff">Formulario {{ formularios.controls['correo'].valid }}</p>

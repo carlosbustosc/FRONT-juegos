@@ -1,0 +1,21 @@
+.contenedor_login_principal {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.contenedor_registro {
+    width: 500px;
+    display: table;
+    margin: auto;
+    padding: 20px 30px;
+    background-color: #fff;
+}
+
+.ingresar {
+    cursor: pointer;
+}
+
+.ingresar:hover {
+    text-decoration: underline;
+}

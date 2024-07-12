@@ -1,0 +1,79 @@
+.imagen_tarjeta {
+    width: 100%;
+}
+
+.contenedor_informacion_juego {
+    width: 100%;
+    display: table;
+    background-color: #32383e;
+    padding: 20px;
+}
+
+.color_textos_juego {
+    color: #c1c1c1;
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+
+span.plataforma {
+    padding: 0px 10px;
+    background-color: #00adc7;
+    color: #000;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+span.genero {
+    padding: 0px 9px;
+    background-color: #ffffff;
+    color: #000;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+span.titulo {
+    padding: 0px 9px;
+    background-color: #97a49b;
+    color: #000;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.boton_detalle_juego {
+    padding: 3px 22px;
+    margin-top: 44px;
+    margin-bottom: 14px;
+    background-color: #2d2d2d;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    /* border-radius: 15px; */
+    cursor: pointer;
+    float: left;
+}
+
+.boton_detalle_juego:hover {
+    background-color: #fff;
+    color: #000
+}
+
+.boton_detalle_juego2 {
+    padding: 3px 22px;
+    margin-top: 60px;
+    background-color: #006978;
+    border: 1px solid #00adc7;
+    color: #ffffff;
+    border-radius: 15px;
+    cursor: pointer;
+    float: right;
+}
+
+.boton_detalle_juego2:hover {
+    background-color: #fff;
+    color: #000
+}

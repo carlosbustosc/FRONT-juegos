@@ -1,0 +1,16 @@
+<div class="container mt-5">
+    <h1 class="nombre_bienvenida"><i class="fa-solid fa-circle-user tamano"></i>{{ nombreBienvenido }}</h1>
+    <div class="contenedor_buscar">
+        <h2 class="buscar_categoria"><b>Busca segun las siguientes categorias</b>: MMORPG, shooter, moba, anime, Battle royale, strategy, sci-fi, card games, racing, fighting, social, sports</h2>
+        <input class="form-control ancho_de_formulario" type="text" #txtBuscar (keyup.enter)="buscar(txtBuscar.value)" aria-label="readonly input example" placeholder="Busca segun la categoria">
+        <span><button class="boton_buscar btn btn-primary" (click)="buscar(txtBuscar.value)">Buscar</button></span>
+    </div>
+
+    <app-tarjeta class="row" [juegos]="todosLosJuegos" *ngIf="mostrarJuegos"></app-tarjeta>
+
+    <app-tarjeta class="row" [juegos]="busquedaDeJuegos" *ngIf="mostrarBusqueda"></app-tarjeta>
+
+    <div class="contenedor_error" *ngIf="categoriaError">
+        <p class="texto_error">No se encontro la categoria seleccionada, por favor verifique que este bien escrita</p>
+    </div>
+</div>

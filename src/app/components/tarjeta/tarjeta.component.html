@@ -1,0 +1,10 @@
+<div class="col-md-3 mt-5" *ngFor="let gameCard of juegos">
+    <img [src]="gameCard.thumbnail" class="imagen_tarjeta">
+    <div class="contenedor_informacion_juego">
+        <p class="color_textos_juego">Titulo:<span class="titulo">{{ gameCard.title }}</span></p>
+        <p class="color_textos_juego">Plataforma: <span class="plataforma">{{ gameCard.platform }}</span></p>
+        <p class="color_textos_juego">Gnerero: <span class="genero">{{ gameCard.genre }}</span></p>
+        <button class="boton_detalle_juego" (click)="verDetalle( gameCard.id )">Ver detalle</button>
+
+    </div>
+</div>

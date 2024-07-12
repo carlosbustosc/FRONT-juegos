@@ -1,0 +1,21 @@
+.contenedor_login_principal {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.contenedor_login {
+    width: 500px;
+    display: table;
+    margin: auto;
+    padding: 20px 30px;
+    background-color: #fff;
+}
+
+.resgitrarme {
+    cursor: pointer;
+}
+
+.resgitrarme:hover {
+    text-decoration: underline;
+}

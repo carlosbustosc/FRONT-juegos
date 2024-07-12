@@ -1,0 +1,74 @@
+.titulo_juegos {
+    font-size: 30px;
+    color: #aaa;
+}
+
+.parrafo_juegos {
+    color: #aaa;
+}
+
+.imagen_portada_home {
+    width: 100%;
+}
+
+.contenedor_imagenes {
+    width: 100%;
+    display: table;
+}
+
+.imagenes_de_juegos {
+    width: 100%;
+    float: left;
+    transition: transform .2s;
+    cursor: pointer;
+    position: relative;
+    margin-top: 0px !important;
+}
+
+.imagenes_de_juegos:hover {
+    transform: scale(1.2);
+}
+
+.titulo_detalle_home {
+    color: #aaa;
+    line-height: 35px;
+    margin-bottom: 33px;
+}
+
+.imagen_detalle_home {
+    width: 100%;
+}
+
+.plataforma_titulo {
+    font-size: 19px;
+    background-color: #0449aa;
+    padding: 1px 14px;
+    color: #fff;
+}
+
+.texto_detalle {
+    font-size: 17px;
+    color: #aaaaaa;
+}
+
+.division_seccion {
+    border: none;
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+    margin-top: 41px;
+}
+
+.pie_de_juego {
+    width: 100%;
+    background-color: #32383e;
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+    display: block;
+}
+
+.contenedor_texto_home {
+    background-color: hsl(0deg 0% 16% / 90%);
+    padding: 40px 50px;
+}
