@@ -60,3 +60,30 @@ li a:hover {
 li a.boton {
     display: block;
 }
+
+@media(max-width:650px){
+
+    .imagen_juego{
+        height: 69px;
+        margin: 30px auto;
+        position: relative;
+    }
+
+    .ancho_menu{
+
+        width: 100%;
+    }
+
+    .contenedor_logo{
+
+        text-align: center;
+    }
+
+}
+
+@media(max-width:385px){
+    li a.bajar_icono{
+        padding: 10px 0px 19px 0px;
+        font-size: 14px;
+    }
+}

@@ -21,3 +21,16 @@ body {
 .parrafo_juegos {
     color: #aaa;
 }
+
+@media(max-width:650px){
+
+    .container {
+        padding: 0px 40px;
+    }
+
+    .titulo_juegos {
+        font-size: 19px;
+        color: #aaa;
+    }
+
+}

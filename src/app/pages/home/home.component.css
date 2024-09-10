@@ -72,3 +72,88 @@
     background-color: hsl(0deg 0% 16% / 90%);
     padding: 40px 50px;
 }
+
+@media(max-width:650px){
+
+    .container.mt-5 {
+        padding: 0px 25px;
+    }
+
+    .titulo_juegos {
+        font-size: 21px;
+        color: #aaa;
+    }
+
+    .contenedor_texto_home{
+        background-color: hsl(0deg 0% 16% / 90%);
+        padding: 40px 33px;
+        width: 94%;
+        margin: auto;
+    }
+
+    .plataforma_titulo{
+      
+        display: inline-block;
+        margin-top: 10px;
+        line-height: 24px;
+        padding: 11px 15px;
+    }
+
+    .pie_de_juego{
+        margin-bottom: 38px;
+    }
+
+}
+
+@media(max-width:385px){
+
+    .titulo_detalle_home{
+        color: #aaa;
+        line-height: 35px;
+        margin-bottom: 10px;
+        font-size: 21px;
+    }
+
+    .plataforma_titulo{
+        font-size: 17px;
+        display: inline-block;
+        line-height: 24px;
+    }
+
+}
+
+@media(max-width:365px){
+
+    .titulo_juegos{
+        font-size: 18px;
+        color: #aaa;
+    }
+
+    .titulo_juegos{
+        font-size: 18px;
+        color: #aaa;
+    }
+
+    .plataforma_titulo{
+        font-size: 15px;
+        display: inline-block;
+        line-height: 22px;
+    }
+
+    .texto_detalle{
+        font-size: 16px;
+        color: #aaaaaa;
+    }
+    
+}
+
+
+@media(max-width:345px){
+
+    .plataforma_titulo {
+        font-size: 14px;
+        display: inline-block;
+        line-height: 22px;
+    }
+
+}

@@ -6,3 +6,15 @@ div#carouselExampleIndicators {
 .imagen_juego_detalle {
     width: 100%;
 }
+
+@media(max-width:650px){
+
+    div#carouselExampleIndicators{
+        width: 100%;
+        margin: 10px auto 0px auto;
+    }
+
+    .container.contenedor_slider {
+        padding: 0px;
+    }
+}

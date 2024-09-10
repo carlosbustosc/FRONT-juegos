@@ -42,3 +42,24 @@
     font-size: 35px;
     margin-bottom: 13px;
 }
+
+@media(max-width:650px){
+
+    .container.mt-5 {
+        padding: 0px 30px;
+    }
+
+    .ancho_de_formulario{
+        width: 78%;
+        height: 37px;
+        border-radius: 0px;
+    }
+
+    .boton_buscar {
+        float: left;
+        border-radius: 0px;
+        padding: 5px 10px;
+        font-size: 16px;
+    }
+
+}

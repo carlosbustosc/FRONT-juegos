@@ -79,3 +79,71 @@
     background-color: #fff;
     color: #2d2d2d;
 }
+
+@media(max-width:650px){
+
+    .titulo_detalle{
+        font-size: 19px;
+        padding: 20px 0px 0px 0px;
+    }
+
+    .boton_lts{
+        margin-bottom: 18px;
+    }
+
+    .contenedor_fondo_detalle{
+        width: 100%;
+        height: 431px;
+        background-position-x: -271px;
+        background-attachment: fixed;
+    }
+
+    .imagen_detalle_tumb {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+
+@media(max-width:385px){
+
+    .contenedor_fondo_detalle{
+        width: 100%;
+        height: 304px;
+    }
+}
+
+
+
+@media(max-width:365px){
+
+    .titulo_detalle{
+        font-size: 18px;
+        padding: 20px 0px 0px 0px;
+    }
+
+    .detalles_construccion{
+        font-size: 15px;
+        color: #aaaaaa;
+    }
+
+    .boton_lts{
+        margin-bottom: 15px;
+        font-size: 13px;
+    }
+    
+}
+
+@media(max-width:345px){
+
+    .container{
+        background-color: hsl(0deg 0% 16% / 90%);
+        padding: 10px 31px;
+    }
+
+    .texto_detalle {
+        font-size: 15px;
+        color: #aaaaaa;
+        margin-top: -10px;
+    }
+}
